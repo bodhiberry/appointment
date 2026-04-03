@@ -2,14 +2,16 @@ import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
 import { getToken } from "next-auth/jwt";
 
-export async function proxy(req: NextRequest) {
+export async function middleware(req: NextRequest) {
   const token = await getToken({ 
     req, 
     secret: process.env.NEXTAUTH_SECRET 
   });
 
-  const isAuthPage = req.nextUrl.pathname.startsWith("/admin/login");
-  const isAdminPage = req.nextUrl.pathname.startsWith("/admin");
+  const { pathname } = req.nextUrl;
+
+  const isAuthPage = pathname.startsWith("/admin/login");
+  const isAdminPage = pathname.startsWith("/admin");
 
   if (isAdminPage && !isAuthPage) {
     if (!token) {
