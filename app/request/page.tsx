@@ -153,7 +153,7 @@ export default function VisitorRequestPage() {
               <MessageSquare className="absolute left-3 top-2.5 h-4 w-4 text-slate-400" />
               <textarea
                 {...register("purpose")}
-                placeholder="e.g. Meeting, Document Submission, Delivery"
+                placeholder="e.g. Meeting, document submission, or other agendas"
                 rows={3}
                 className={cn(
                   "flex w-full rounded-md border border-slate-200 bg-white px-9 py-2 text-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-600",
