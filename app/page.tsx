@@ -13,7 +13,7 @@ export default function Home() {
              
             </div>
             <h1 className="mb-6 text-4xl font-extrabold tracking-tight text-slate-900 sm:text-6xl max-w-3xl">
-              Secure & Seamless <span className="text-blue-600">Visitor Management</span> for SM
+              Secure & Seamless <span className="text-blue-600">Visitor Management</span> for
             </h1>
             <p className="mb-10 text-lg text-slate-500 max-w-2xl">
               A comprehensive QR-based system designed to streamline visitor requests, 
