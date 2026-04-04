@@ -10,7 +10,7 @@ export default function Home() {
           <div className="flex flex-col items-center text-center">
             <div className="inline-flex items-center gap-2 px-3 py-1 mb-6 text-sm font-medium text-blue-700 rounded-full bg-blue-50 border border-blue-100">
               <ShieldCheck className="w-4 h-4" />
-              <span>Next Generation Visitor Control</span>
+             
             </div>
             <h1 className="mb-6 text-4xl font-extrabold tracking-tight text-slate-900 sm:text-6xl max-w-3xl">
               Secure & Seamless <span className="text-blue-600">Visitor Management</span> for SM
