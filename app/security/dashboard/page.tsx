@@ -70,7 +70,7 @@ export default function SecurityDashboard() {
       <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-8">
         <div>
           <h1 className="text-3xl font-bold tracking-tight">Security Dashboard</h1>
-          <p className="text-slate-500">Manage and verify visitor requests for SM entry.</p>
+          <p className="text-slate-500">Manage and verify visitor requests for entry.</p>
         </div>
         <div className="flex items-center gap-3">
           <div className="bg-blue-50 text-blue-700 px-4 py-2 rounded-xl border border-blue-100 flex items-center gap-2 font-semibold">
