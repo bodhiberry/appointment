@@ -30,10 +30,8 @@ export default function RootLayout({
         <header className="sticky top-0 z-40 w-full border-b bg-white/80 backdrop-blur-md">
           <div className="container flex h-16 items-center justify-between px-4 sm:px-8 max-w-7xl mx-auto">
             <div className="flex items-center gap-2">
-              <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-lg">S</span>
-              </div>
-              <Link href="/"><span className="font-bold text-xl tracking-tight">SM Visitor</span></Link>
+             
+              <Link href="/"><span className="font-bold text-xl tracking-tight"> Visitor Management</span></Link>
             </div>
             <nav className="flex items-center gap-6">
               <a href="/request" className="text-sm font-medium hover:text-blue-600 transition-colors">Request Visit</a>
