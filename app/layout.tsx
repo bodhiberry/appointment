@@ -15,8 +15,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "SM Visitor Management",
-  description: "Secure QR-based visitor entry system for SM",
+  title: "Visitor Management",
+  description: "Secure QR-based visitor entry system",
 };
 
 export default function RootLayout({
