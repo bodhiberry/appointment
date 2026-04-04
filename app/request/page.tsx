@@ -118,7 +118,7 @@ export default function VisitorRequestPage() {
             <label className="text-sm font-medium">Full Name</label>
             <div className="relative">
               <User className="absolute left-3 top-2.5 h-4 w-4 text-slate-400" />
-              <input {...register("name")} placeholder="John Doe"
+              <input {...register("name")} placeholder="Your Full Name"
                 className={cn(inputClass, errors.name && "border-red-500")} />
             </div>
             {errors.name && <p className="text-xs text-red-500">{errors.name.message}</p>}
@@ -173,7 +173,7 @@ export default function VisitorRequestPage() {
                 {...register("personToMeet")}
                 className={cn(inputClass, "appearance-none", errors.personToMeet && "border-red-500")}
               >
-                <option value="">Select Person/Team</option>
+                <option value="">Select Person</option>
                 <option value="Swarnim Wagle">Swarnim Wagle</option>
                 <option value="Team">Team Wagle</option>
               </select>
@@ -220,7 +220,7 @@ export default function VisitorRequestPage() {
             <label className="text-sm font-medium">Email</label>
             <div className="relative">
               <Mail className="absolute left-3 top-2.5 h-4 w-4 text-slate-400" />
-              <input {...register("email")} placeholder="john@example.com"
+              <input {...register("email")} placeholder="yourname@example.com"
                 className={cn(inputClass, errors.email && "border-red-500")} />
             </div>
             {errors.email && <p className="text-xs text-red-500">{errors.email.message}</p>}
