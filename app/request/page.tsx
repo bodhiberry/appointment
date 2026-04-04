@@ -107,7 +107,7 @@ export default function VisitorRequestPage() {
     <div className="container max-w-2xl px-4 py-12 mx-auto">
       <div className="mb-8 text-center">
         <h1 className="mb-2 text-3xl font-bold tracking-tight sm:text-4xl">Visitor Request Form</h1>
-        <p className="text-slate-500">Please fill out the form below to request a visitor pass</p>
+        <p className="text-slate-500">Kindly fill out the form below to request a visitor pass.</p>
       </div>
 
       <form onSubmit={handleSubmit(onSubmit)} className="p-6 bg-white border rounded-2xl shadow-sm sm:p-8">
