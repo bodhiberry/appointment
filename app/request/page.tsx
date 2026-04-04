@@ -174,8 +174,8 @@ export default function VisitorRequestPage() {
                 className={cn(inputClass, "appearance-none", errors.personToMeet && "border-red-500")}
               >
                 <option value="">Select Person/Team</option>
-                <option value="Surnim Wagley">Surnim Wagley</option>
-                <option value="Team">Team</option>
+                <option value="Swarnim Wagle">Swarnim Wagle</option>
+                <option value="Team">Team Wagle</option>
               </select>
               <ChevronDown className="absolute right-3 top-2.5 h-4 w-4 text-slate-400 pointer-events-none" />
             </div>
