@@ -48,7 +48,7 @@ export default function RootLayout({
         <footer className="border-t bg-white py-6 md:py-0">
           <div className="container flex flex-col items-center justify-between gap-4 md:h-24 md:flex-row px-4 sm:px-8 max-w-7xl mx-auto">
             <p className="text-center text-sm leading-loose text-slate-500 md:text-left">
-              © 2026 SM Visitor Management System. All rights reserved.
+              © 2026 Visitor Management System. All rights reserved.
             </p>
           </div>
         </footer>
